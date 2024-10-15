@@ -1,0 +1,14 @@
+@media print {
+    body {
+        font-size: 12pt;
+    }
+
+    .recipe-card {
+        box-shadow: none;
+        border: none;
+    }
+
+    button, .progress-container {
+        display: none;
+    }
+}

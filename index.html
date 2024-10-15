@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Cake Recipe</title>
+    <link rel="stylesheet" href="D:\Desktop\valutcode web\assigment2-web\style.css">
+</head>
+<body>
+    <div class="recipe-card">
+        <h1>Chocolate Cake</h1>
+
+        <img src="D:\Desktop\valutcode web\assigment2-web\images\brooke-lark-jUPOXXRNdcA-unsplash.jpg" alt="Chocolate Cake" class="recipe-image">
+
+        <div class="info">
+            <p><strong>Prep Time:</strong> 45 mins</p>
+            <p><strong>Servings:</strong> 8 slices</p>
+        </div>
+
+        <button class="toggle-button" onclick="toggleIngredients()">Show Ingredients</button>
+        <ul class="ingredients hidden">
+            <li>2 cups flour</li>
+            <li>1 ½ cups sugar</li>
+            <li>½ cup cocoa powder</li>
+            <li>1 tsp baking soda</li>
+            <li>½ tsp salt</li>
+            <li>1 cup water</li>
+            <li>½ cup vegetable oil</li>
+            <li>1 tsp vanilla extract</li>
+        </ul>
+
+        <button class="toggle-button" onclick="toggleSteps()">Show Steps</button>
+        <ol class="steps hidden">
+            <li>Preheat the oven to 350°F (175°C).</li>
+            <li>Mix the dry ingredients in a large bowl.</li>
+            <li>Add water, oil, and vanilla to the bowl, and stir well.</li>
+            <li>Pour the batter into a greased pan.</li>
+            <li>Bake for 30 minutes or until done.</li>
+        </ol>
+
+        <div class="progress-container">
+            <button class="start-button" onclick="startCooking()">Start Cooking</button>
+            <button class="stop-button hidden" onclick="stopCooking()">Stop Cooking</button>
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+    </div>
+
+    <script src="D:\Desktop\valutcode web\assigment2-web\script.js"></script>
+</body>
+</html>
